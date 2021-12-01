@@ -9,24 +9,31 @@
 ![](public/complete.svg)|![](public/incomplete.svg)
 
 ----
-||||||
+
+||||
 :-:|:-:|:-:|:-:|:-:
-**Day 01**|**Day 02**|**Day 03**|**Day 04**|**Day 05**
-*Derivations*|*name*|*name*|*name*|*name*
-![](public/complete.svg) ![](public/complete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)
-||||||
-**Day 06**|**Day 07**|**Day 08**|**Day 09**|**Day 10**
-*name*|*name*|*name*|*name*|*name*
-![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)
-||||||
-**Day 11**|**Day 12**|**Day 13**|**Day 14**|**Day 15**
-*name*|*name*|*name*|*name*|*name*
-![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)
-||||||
-**Day 16**|**Day 17**|**Day 18**|**Day 19**|**Day 20**
-*name*|*name*|*name*|*name*|*name*
-![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)
-||||||
-**Day 21**|**Day 22**|**Day 23**|**Day 24**|**Day 25**
-*name*|*name*|*name*|*name*|*name*
-![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 01**|*Derivations*|![](public/complete.svg) ![](public/complete.svg)
+**Day 02**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 03**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 04**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 05**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 06**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 07**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 08**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 09**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 10**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 11**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 12**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 13**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 14**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 15**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 16**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 17**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 18**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 19**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 20**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 21**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 22**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 23**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 24**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 25**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)
