@@ -4,5 +4,5 @@
     ],
     "ext": ".ts,.js",
     "ignore": [],
-    "exec": "ts-node ./day01/index.ts"
+    "exec": "ts-node ./src/index.ts"
 }
