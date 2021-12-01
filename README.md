@@ -4,58 +4,25 @@
 
 ----
 
-:eight_spoked_asterisk: completed
-
-:eight_pointed_black_star: not completed
+|completed|not completed|
+:-:|:-:
+![](public/complete.svg)|![](public/incomplete.svg)
 
 ----
 
-:eight_spoked_asterisk: :eight_spoked_asterisk: Day 01 - Derivations
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 02
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 03
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 04
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 05
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 06
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 07
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 08
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 09
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 10
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 11
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 12
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 13
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 14
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 15
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 16
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 17
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 18
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 19
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 20
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 21
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 22
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 23
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 24
-
-:eight_pointed_black_star: :eight_pointed_black_star: Day 25
+**Day 01**|**Day 02**|**Day 03**|**Day 04**|**Day 05**
+:-:|:-:|:-:|:-:|:-:
+*Derivations*|*name*|*name*|*name*|*name*
+![](public/complete.svg) ![](public/complete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 06**|**Day 07**|**Day 08**|**Day 09**|**Day 10**
+*name*|*name*|*name*|*name*|*name*
+![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 11**|**Day 12**|**Day 13**|**Day 14**|**Day 15**
+*name*|*name*|*name*|*name*|*name*
+![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 16**|**Day 17**|**Day 18**|**Day 19**|**Day 20**
+*name*|*name*|*name*|*name*|*name*
+![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)
+**Day 21**|**Day 22**|**Day 23**|**Day 24**|**Day 25**
+*name*|*name*|*name*|*name*|*name*
+![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)|![](public/incomplete.svg) ![](public/incomplete.svg)
