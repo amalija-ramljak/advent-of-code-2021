@@ -10,7 +10,7 @@
 
 ----
 
-||||
+|Day|Name|Completion|
 |:-:|:-:|:-:|
 |**Day 01**|*Derivations*|![](public/complete.svg) ![](public/complete.svg)|
 |**Day 02**|*name*|![](public/incomplete.svg) ![](public/incomplete.svg)|
