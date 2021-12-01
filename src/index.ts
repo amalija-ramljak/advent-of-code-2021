@@ -1,5 +1,5 @@
 import RL from 'readline';
-import DAYS from './days';
+import getDay from './days';
 
 const rl = RL.createInterface({
     input: process.stdin,
@@ -7,12 +7,13 @@ const rl = RL.createInterface({
 });
 
 const dynamicImport = (day: string) => {
-    if (DAYS[day]) {
-        import(`../day${DAYS[day]}/index.ts`);
+    day = getDay(day);
+    if (day) {
+        import(`../day${day}/index.ts`);
         rl.close();
     } else {
         rl.question('Pick a day to run: ', dynamicImport);
     }
 }
 
-rl.question('Pick a day to run: ', dynamicImport);
+dynamicImport('');
