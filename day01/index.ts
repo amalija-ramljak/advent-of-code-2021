@@ -21,7 +21,7 @@ puzzleInput.forEach((currentDepth, index, depthList) => {
     if (previousWindow === -1) {
         previousWindow = arraySum(depthList.slice(index, index + 3));
     } else {
-        currentWindow = arraySum(depthList.slice(index, index + 3));
+        currentWindow = previousWindow - depthList[index - 1] + depthList[index + 2];
         if (currentWindow > previousWindow) {
             windowIncreases++;
         }
