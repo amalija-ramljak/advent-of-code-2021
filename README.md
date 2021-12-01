@@ -1,6 +1,6 @@
 # Advent of Code 2021
 
-### _Language not yet chosen_
+### _JavaScript_
 
 ----
 
