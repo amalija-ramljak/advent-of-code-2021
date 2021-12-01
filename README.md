@@ -10,7 +10,7 @@
 
 ----
 
-:eight_pointed_black_star: :eight_pointed_black_star: Day 01
+:eight_spoked_asterisk: :eight_spoked_asterisk: Day 01 - Derivations
 
 :eight_pointed_black_star: :eight_pointed_black_star: Day 02
 
