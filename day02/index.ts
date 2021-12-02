@@ -9,9 +9,9 @@ const DIRECTIONS_1 = {
     forward: { distance: 1, depth: 0 },
 }
 const DIRECTIONS_2 = {
-    up: { distance: 0, depth: 0, aim: -1 },
-    down: { distance: 0, depth: 0, aim: 1 },
-    forward: { distance: 1, depth: 1, aim: 0 },
+    up: { distance: 0, aim: -1 },
+    down: { distance: 0, aim: 1 },
+    forward: { distance: 1, aim: 0 },
 }
 
 // Part 1 variables
@@ -33,7 +33,7 @@ puzzleInput.forEach((command) => {
     current_depth_1 += depth_1 * amount;
     current_distance_1 += distance_1 * amount;
     
-    const { distance: distance_2, depth: depth_2, aim } = DIRECTIONS_2[direction as DirectionType];
+    const { distance: distance_2, aim } = DIRECTIONS_2[direction as DirectionType];
     current_aim += aim * amount
     current_distance_2 += distance_2 * amount;
     if (direction === 'forward') {
