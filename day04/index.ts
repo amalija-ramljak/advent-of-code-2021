@@ -44,6 +44,7 @@ const calculateUnmarked = (board: string[][]): number => {
 
 // Part 2 variables
 let result2;
+let boards_won = new Set();
 
 loop:
 for (let called_idx = 0; called_idx < numbers_called.length; called_idx++) {
@@ -67,8 +68,14 @@ for (let called_idx = 0; called_idx < numbers_called.length; called_idx++) {
         });
         if (changed_position.x > -1) {
             if (checkBoard(boards[board_idx], changed_position)) {
-                result1 = calculateUnmarked(boards[board_idx]) * parseInt(called_number);
-                break loop;
+                if (!result1) {
+                    result1 = calculateUnmarked(boards[board_idx]) * parseInt(called_number);
+                }
+                boards_won.add(board_idx);
+                if (boards_won.size === boards.length) {
+                    result2 = calculateUnmarked(boards[board_idx]) * parseInt(called_number);
+                    break loop;
+                }
             }
         }
     }
