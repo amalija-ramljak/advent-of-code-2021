@@ -14,8 +14,8 @@
 |:-:|:-:|:-:|
 |**01**|*Derivations*|![](public/complete.svg) ![](public/complete.svg)|
 |**02**|*Into the Depths*|![](public/complete.svg) ![](public/complete.svg)|
-|**03**||![](public/incomplete.svg) ![](public/incomplete.svg)|
-|**04**||![](public/incomplete.svg) ![](public/incomplete.svg)|
+|**03**|*Bitwise encoded*|![](public/complete.svg) ![](public/complete.svg)|
+|**04**|*Grandma's Game*|![](public/complete.svg) ![](public/complete.svg)|
 |**05**||![](public/incomplete.svg) ![](public/incomplete.svg)|
 |**06**||![](public/incomplete.svg) ![](public/incomplete.svg)|
 |**07**||![](public/incomplete.svg) ![](public/incomplete.svg)|
