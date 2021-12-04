@@ -13,7 +13,7 @@
 |Day|Name|Completion|
 |:-:|:-:|:-:|
 |**01**|*Derivations*|![](public/complete.svg) ![](public/complete.svg)|
-|**02**||![](public/incomplete.svg) ![](public/incomplete.svg)|
+|**02**|*Into the Depths*|![](public/complete.svg) ![](public/complete.svg)|
 |**03**||![](public/incomplete.svg) ![](public/incomplete.svg)|
 |**04**||![](public/incomplete.svg) ![](public/incomplete.svg)|
 |**05**||![](public/incomplete.svg) ![](public/incomplete.svg)|
