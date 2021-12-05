@@ -16,7 +16,7 @@
 |**02**|*Into the Depths*|![](public/complete.svg) ![](public/complete.svg)|
 |**03**|*Bitwise encoded*|![](public/complete.svg) ![](public/complete.svg)|
 |**04**|*Grandma's Game*|![](public/complete.svg) ![](public/complete.svg)|
-|**05**||![](public/incomplete.svg) ![](public/incomplete.svg)|
+|**05**|*Bresenham Simplified*|![](public/complete.svg) ![](public/complete.svg)|
 |**06**||![](public/incomplete.svg) ![](public/incomplete.svg)|
 |**07**||![](public/incomplete.svg) ![](public/incomplete.svg)|
 |**08**||![](public/incomplete.svg) ![](public/incomplete.svg)|
