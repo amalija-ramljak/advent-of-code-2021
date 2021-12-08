@@ -19,7 +19,7 @@
 |**05**|*Bresenham Simplified*|![](public/complete.svg) ![](public/complete.svg)|
 |**06**|*The Reproductive Capabilities of Fish*|![](public/complete.svg) ![](public/complete.svg)|
 |**07**|*Introduction to Statistics*|![](public/complete.svg) ![](public/complete.svg)|
-|**08**||![](public/incomplete.svg) ![](public/incomplete.svg)|
+|**08**|*Elimination*|![](public/complete.svg) ![](public/complete.svg)|
 |**09**||![](public/incomplete.svg) ![](public/incomplete.svg)|
 |**10**||![](public/incomplete.svg) ![](public/incomplete.svg)|
 |**11**||![](public/incomplete.svg) ![](public/incomplete.svg)|
