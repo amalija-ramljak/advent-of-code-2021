@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 const puzzleInput = fs
-  .readFileSync('day05/puzzleInput.txt', { encoding: 'utf8', flag: 'r' })
+  .readFileSync('day05/my.puzzle.txt', { encoding: 'utf8', flag: 'r' })
   .split('\n');
 
 type Point = {

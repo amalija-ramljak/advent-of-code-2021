@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const puzzleInput = fs.readFileSync('day02/puzzleInput.txt', { encoding: 'utf8', flag: 'r' }).split('\n');
+const puzzleInput = fs.readFileSync('day02/my.puzzle.txt', { encoding: 'utf8', flag: 'r' }).split('\n');
 
 type DirectionType = 'up' | 'down' | 'forward';
 const DIRECTIONS_1 = {

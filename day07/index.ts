@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 const puzzleInput = fs
-  .readFileSync('day07/puzzleInput.txt', { encoding: 'utf8', flag: 'r' })
+  .readFileSync('day07/my.puzzle.txt', { encoding: 'utf8', flag: 'r' })
   .split(',')
   .map(e => parseInt(e));
 

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { arraySum } from '../utils/utils';
 
-const puzzleInput = fs.readFileSync('day01/puzzleInput.txt', { encoding: 'utf8', flag: 'r' }).split('\n').map((v) => parseInt(v));
+const puzzleInput = fs.readFileSync('day01/my.puzzle.txt', { encoding: 'utf8', flag: 'r' }).split('\n').map((v) => parseInt(v));
 
 // Part 1 variables
 let localIncreases = 0;

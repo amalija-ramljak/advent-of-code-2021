@@ -1,5 +1,5 @@
 import fs from 'fs';
-const puzzleInput = fs.readFileSync('day03/puzzleInput.txt', { encoding: 'utf8', flag: 'r' }).split("\n");
+const puzzleInput = fs.readFileSync('day03/my.puzzle.txt', { encoding: 'utf8', flag: 'r' }).split("\n");
 const transposedPuzzleInput: string[][] = [];
 puzzleInput.forEach((code, idx) => {
     code.split('').forEach((bit, bitIdx) => {

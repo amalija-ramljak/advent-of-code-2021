@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 const fileContent = fs
-  .readFileSync('day06/puzzleInput.txt', { encoding: 'utf8', flag: 'r' })
+  .readFileSync('day06/my.puzzle.txt', { encoding: 'utf8', flag: 'r' })
   .split(',')
   .map((e) => parseInt(e));
 
@@ -10,8 +10,6 @@ let result1;
 
 // Part 2 variables
 let result2;
-
-let current_length = fileContent.length;
 
 // 0, 1, 2, 3, 4, 5, 6, 7, 8
 let fish_counters = [0, 0, 0, 0, 0, 0, 0, 0, 0];

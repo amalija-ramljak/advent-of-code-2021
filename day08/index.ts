@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 const puzzleInput = fs
-  .readFileSync('day08/puzzleInput.txt', { encoding: 'utf8', flag: 'r' })
+  .readFileSync('day08/my.puzzle.txt', { encoding: 'utf8', flag: 'r' })
   .split('\n');
 
 const original_segments_used = [

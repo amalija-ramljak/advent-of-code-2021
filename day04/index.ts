@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const puzzleInput = fs.readFileSync('day04/puzzleInput.txt', { encoding: 'utf8', flag: 'r' }).split('\n\n');
+const puzzleInput = fs.readFileSync('day04/my.puzzle.txt', { encoding: 'utf8', flag: 'r' }).split('\n\n');
 
 // cleanup input
 const numbers_called = puzzleInput[0].split(',');

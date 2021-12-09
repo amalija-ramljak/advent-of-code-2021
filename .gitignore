@@ -171,5 +171,5 @@ dist
 
 # AOC
 
-puzzleInput.txt
 *.puzzle.txt
+*.html
