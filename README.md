@@ -20,7 +20,7 @@
 |**06**|*The Underwater Bunnies: Counting Fish*|![](public/complete.svg) ![](public/complete.svg)|
 |**07**|*A Very Shallow Dive Into Statistics*|![](public/complete.svg) ![](public/complete.svg)|
 |**08**|*Some Kind Of Weird Sudoku*|![](public/complete.svg) ![](public/complete.svg)|
-|**09**||![](public/incomplete.svg) ![](public/incomplete.svg)|
+|**09**|*Finding the High Ground*|![](public/complete.svg) ![](public/complete.svg)|
 |**10**||![](public/incomplete.svg) ![](public/incomplete.svg)|
 |**11**||![](public/incomplete.svg) ![](public/incomplete.svg)|
 |**12**||![](public/incomplete.svg) ![](public/incomplete.svg)|
