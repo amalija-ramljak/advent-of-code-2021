@@ -8,7 +8,21 @@ const puzzleInput = fs
 // Part 1 variables
 let result1 = 0;
 let octopi = puzzleInput.slice();
+
 const flashedInStep: Point[] = [];
+const hasFlashed = (octopus: Point): boolean => {
+  return !!flashedInStep.find(
+    (e) => e.row === octopus.row && e.col === octopus.col
+  );
+};
+
+const getEnergy = (octopus: Point): number => {
+  return octopi[octopus.row][octopus.col];
+};
+
+const canFlash = (octopus: Point): boolean => {
+  return getEnergy(octopus) > 9 && !hasFlashed(octopus);
+}
 
 type Point = {
   row: number;
@@ -51,12 +65,7 @@ const flashNeighbours = (octopus: Point) => {
     neighbour.col = octopus.col + neighbourDirection.col;
     if (existsNeighbour(neighbour, octopiCount)) {
       octopi[neighbour.row][neighbour.col] += 1;
-      if (
-        octopi[neighbour.row][neighbour.col] > 9 &&
-        !flashedInStep.find(
-          (e) => e.row === neighbour.row && e.col === neighbour.col
-        )
-      ) {
+      if (canFlash(neighbour)) {
         flashedInStep.push({ ...neighbour });
         flashNeighbours(neighbour);
       }
@@ -67,6 +76,7 @@ const flashNeighbours = (octopus: Point) => {
 // Part 2 variables
 let result2;
 
+let octo = { row: 0, col: 0 };
 for (let step = 1; ; step++) {
   if (step === 101) {
     countFlashes = false;
@@ -76,12 +86,11 @@ for (let step = 1; ; step++) {
 
   for (let row = 0; row < octopi.length; row++) {
     for (let col = 0; col < octopi[0].length; col++) {
-      if (
-        octopi[row][col] > 9 &&
-        !flashedInStep.find((e) => e.row === row && e.col === col)
-      ) {
-        flashedInStep.push({ row, col });
-        flashNeighbours({ row, col });
+      octo.row = row;
+      octo.col = col;
+      if (canFlash(octo)) {
+        flashedInStep.push({ ...octo });
+        flashNeighbours(octo);
       }
     }
   }
