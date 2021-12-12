@@ -23,7 +23,7 @@
 |**09**|*Finding the High Ground*|![](public/complete.svg) ![](public/complete.svg)|
 |**10**|*A Linter From the First Principles*|![](public/complete.svg) ![](public/complete.svg)|
 |**11**|*Hurrying Up the Stairs at Night With a Timed Light*|![](public/complete.svg) ![](public/complete.svg)|
-|**12**||![](public/incomplete.svg) ![](public/incomplete.svg)|
+|**12**|*Gotta Catch Them All: Submarine Cave Path Edition*|![](public/complete.svg) ![](public/complete.svg)|
 |**13**||![](public/incomplete.svg) ![](public/incomplete.svg)|
 |**14**||![](public/incomplete.svg) ![](public/incomplete.svg)|
 |**15**||![](public/incomplete.svg) ![](public/incomplete.svg)|
