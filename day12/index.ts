@@ -27,31 +27,56 @@ const isBig = (cave: string): boolean => {
 const START = 'start';
 const END = 'end';
 
-const paths = [];
+// Part 1 variables
+let result1;
 
-const findPaths = (current_position: string, parent_path: string[]) => {
+const paths_1: string[][] = [];
+const findPaths_1 = (current_position: string, parent_path: string[]) => {
   if (current_position === END) {
-    paths.push(parent_path);
+    paths_1.push(parent_path);
     return;
   }
 
   for (let neighbour_cave of cave_system[current_position]) {
     if (neighbour_cave === START) continue;
     if (isBig(neighbour_cave) || !parent_path.includes(neighbour_cave)) {
-      findPaths(neighbour_cave, parent_path.concat([neighbour_cave]));
+      findPaths_1(neighbour_cave, parent_path.concat([neighbour_cave]));
     }
   }
 };
 
-// Part 1 variables
-let result1;
-
 // Part 2 variables
 let result2;
+const paths_2: string[][] = [];
+const findPaths_2 = (
+  current_position: string,
+  parent_path: string[],
+  smallTwice: boolean
+) => {
+  if (current_position === END) {
+    paths_2.push(parent_path);
+    return;
+  }
 
-findPaths(START, [START]);
+  for (let neighbour_cave of cave_system[current_position]) {
+    if (neighbour_cave === START) continue;
+    if (isBig(neighbour_cave) || !parent_path.includes(neighbour_cave)) {
+      findPaths_2(
+        neighbour_cave,
+        parent_path.concat([neighbour_cave]),
+        smallTwice
+      );
+    } else if (!smallTwice) {
+      findPaths_2(neighbour_cave, parent_path.concat([neighbour_cave]), true);
+    }
+  }
+};
 
-result1 = paths.length;
+findPaths_1(START, [START]);
+findPaths_2(START, [START], false);
+
+result1 = paths_1.length;
+result2 = paths_2.length;
 
 console.log(`Day 12 / Part 1\n\tResult: ${result1}`);
 console.log(`Day 12 / Part 2\n\tResult: ${result2}`);
