@@ -172,4 +172,6 @@ dist
 # AOC
 
 *.puzzle.txt
+*.puzzle
+*.output
 *.html
